@@ -27,7 +27,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
-                sh 'mvn deploy generatePom=false'
+                sh 'mvn clean install deploy'
             }
         }
     }
