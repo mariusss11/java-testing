@@ -8,14 +8,6 @@
     <artifactId>javaTesting</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <url>https://maven.pkg.github.com/mariusss11/java-testing</url>
-        </repository>
-    </distributionManagement>
-
-
 
     <properties>
         <maven.compiler.release>15</maven.compiler.release>
