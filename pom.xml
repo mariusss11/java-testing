@@ -10,10 +10,11 @@
 
     <distributionManagement>
         <repository>
-            <id>java-testing</id>
-            <url>https://github.com/mariusss11/java-testing</url>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/mariusss11/java-testing</url>
         </repository>
     </distributionManagement>
+
 
 
     <properties>
